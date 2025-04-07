@@ -5,3 +5,4 @@ Integrantes:
 Marcelo Rivero,
 Natalia Lopez,
 Thomas Acevedo,
+Vega Lisandro
