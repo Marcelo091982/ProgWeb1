@@ -10,6 +10,5 @@ Iris Cuadrado 36262348
 
 Tematica: Tienda Online de celulares.
 
-maquetados al día de la fecha: 
-https://marcelo091982.github.io/ProgWeb1/ -
+maquetado al día de la fecha: 
 https://tomisaurio09.github.io/Pagina-Celulares/
