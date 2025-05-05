@@ -6,6 +6,7 @@ Marcelo Rivero,
 Natalia Lopez,
 Thomas Acevedo,
 Vega Lisandro
+Iris Cuadrado
 
 Tematica: Tienda Online de celulares.
 
