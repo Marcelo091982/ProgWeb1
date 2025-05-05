@@ -12,5 +12,5 @@
 - Tienda Online de celulares
 
 ### Maquetado al día de la fecha:
-- [Sitio de Thomas Acevedo](https://tomisaurio09.github.io/Pagina-Celulares/)
+- [CelularesYa](https://tomisaurio09.github.io/Pagina-Celulares/)
 
