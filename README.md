@@ -2,11 +2,11 @@
 Programación Web 1 - Primer Cuatrimestre 2025
 
 Integrantes:
-Marcelo Rivero,
-Natalia Lopez,
-Thomas Acevedo,
-Vega Lisandro
-Iris Cuadrado
+Marcelo Rivero 29801957,
+Natalia Lopez 35539428,
+Thomas Acevedo 47182696,
+Vega Lisandro 47146872
+Iris Cuadrado 36262348
 
 Tematica: Tienda Online de celulares.
 
