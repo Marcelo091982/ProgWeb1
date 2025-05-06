@@ -1,5 +1,4 @@
-1. Acomodé la estructura del HTML, es decir, puse todo dentro del <body>, nada debe ir en <head> salvo enlaces a CSS/JS, 
-title, meta y similares.
+1. Acomodé la estructura del HTML, es decir, puse todo dentro del <body>, nada debe ir en <head> salvo enlaces a CSS/JS, title, meta y similares.
 2. Agregué 9 ítems.
 3. Cambié los valores de algunos botones al español. 
 
