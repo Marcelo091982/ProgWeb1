@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de celulares</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UNO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Celulares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accesorios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Ayuda</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-secondary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <section>
+            <h2>Tienda UNO</h2>
+            <p>Encontrá el celular que buscás!</p>
+        </section>
+
+        <div class="row">
+            <!-- Panel izquierdo de filtros -->
+            <aside class="col-md-2">
+                <h5>Filtros</h5>
+                <div class="mb-3">
+                    <label for="priceRange" class="form-label">Precio máximo</label>
+                    <div class="d-flex align-items-center">
+                        <span>$0</span>
+                        <input type="range" class="form-range mx-2" min="0" max="500000" id="priceRange">
+                        <span>$1.500.000</span>
+                    </div>
+
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Marcas</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Samsung">
+                        <label class="form-check-label" for="Samsung">Samsung</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Motorola">
+                        <label class="form-check-label" for="Motorola">Motorola</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Apple">
+                        <label class="form-check-label" for="Apple">Apple</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Xioami">
+                        <label class="form-check-label" for="Apple">Xioami</label>
+                    </div>
+                    <br>
+                    <label class="form-label">Capacidad</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="32gb">
+                        <label class="form-check-label" for="Samsung">32gb</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="64gb">
+                        <label class="form-check-label" for="Motorola">64gb</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="128gb">
+                        <label class="form-check-label" for="Apple">128gb</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="256gb">
+                        <label class="form-check-label" for="Apple">256gb</label>
+                    </div>
+                    <br>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Llegan hoy</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Envío gratis</label>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" fdprocessedid="zl3v8">Filtrar</button>
+            </aside>
+
+            <!-- Productos -->
+            <section class="col-md-10">
+                <div class="row g-4">
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Galaxy_A04.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Galaxy A04 64 GB Negro</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <span class="badge bg-warning">MAS VENDIDO</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Galaxy_A05.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Galaxy A05 64 GB Verde</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Galaxy_A13.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Galaxy A13 Lte</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <span class="badge bg-warning">MAS VENDIDO</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Iphone_16.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 16 (256 gb)</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Moto-E22.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Moto E22 4/64 GB Negro</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/moto_g15.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Moto G15 dual sim 256gb</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/moto_g32.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Moto G32 128/6 gb Gris</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Xiaomi_MI_11.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi MI11 Dual SIM 64gb</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="width: 18rem;">
+                        <img src="img/Xiaomi_POCO_M4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi POCO M4 Pro 5g</h5>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                            </div>
+                            <span class="badge bg-success">LLEGA GRATIS HOY</span>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <p class="text-success">Mismo precio en 12 cuotas</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <button type="button" class="btn btn-info" fdprocessedid="8lyk3y">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paginaciones -->
+                <ul class="pagination mt-4">
+                    <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                </ul>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
